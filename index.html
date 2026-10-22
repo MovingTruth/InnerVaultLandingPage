@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#0E1011">
+  <meta name="description" content="Inner Vault is being built as a private capture, encrypted storage, and controlled-viewing app for iPhone. Some things are yours alone.">
+  <meta property="og:title" content="Inner Vault — by Moving Truth">
+  <meta property="og:description" content="Some things are yours alone.">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://inner-vault.movingtruth.com/">
+  <meta property="og:image" content="https://inner-vault.movingtruth.com/assets/icon.png">
+  <title>Inner Vault — by Moving Truth</title>
+  <link rel="icon" type="image/png" href="assets/icon.png">
+  <link rel="apple-touch-icon" href="assets/icon.png">
+  <link rel="stylesheet" href="styles.css">
+  <script src="site.js" defer></script>
+</head>
+<body>
+  <a class="skip-link" href="#main-content">Skip to main content</a>
+  <div class="living-canvas" aria-hidden="true">
+    <div class="living-canvas__gradient"></div>
+    <div class="living-canvas__glow"></div>
+    <div class="living-canvas__motes" id="motes"></div>
+    <svg class="living-canvas__corners" id="corner-spirals"></svg>
+  </div>
+
+  <header class="site-nav" role="banner">
+    <a class="site-nav__brand" href="#top" aria-label="Inner Vault home"><img src="assets/icon.png" alt=""><span>Inner Vault</span></a>
+    <button class="site-nav__toggle" type="button" aria-expanded="false" aria-controls="site-links"><span class="sr-only">Open navigation</span><span aria-hidden="true"></span><span aria-hidden="true"></span><span aria-hidden="true"></span></button>
+    <nav aria-label="Main navigation"><ul class="site-nav__links" id="site-links"><li><a href="#purpose">Purpose</a></li><li><a href="#privacy">Privacy</a></li><li><a href="technical_craft.html">Technical Craft</a></li><li><a href="accessibility.html">Accessibility</a></li><li><a href="#availability">Availability</a></li><li><a href="https://apps.movingtruth.com">All apps</a></li></ul></nav>
+  </header>
+
+  <main id="main-content">
+    <section class="hero" id="top" aria-labelledby="hero-title">
+      <p class="hero__status">In development for iPhone</p>
+      <div class="hero__icon-wrap"><div class="hero__icon-glow"></div><img class="hero__icon" src="assets/icon.png" alt="Inner Vault app icon: a warm metallic vault door within a dark stone frame"></div>
+      <h1 class="hero__name" id="hero-title">Inner Vault</h1>
+      <p class="hero__promise">Some things are yours alone.</p>
+      <p class="hero__subhead">A private place for personal photographs, notes, recordings, scans, and documents—captured privately, kept under your control, and revealed only by choice.</p>
+      <div class="hero__actions"><a class="button button--quiet" href="#purpose">Discover Inner Vault</a><a class="button button--outline" href="technical_craft.html">Read the technical craft</a></div>
+      <p class="hero__scroll" aria-hidden="true">scroll to enter</p>
+    </section>
+
+    <div class="dot-row" aria-hidden="true"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></div>
+
+    <section class="intro" id="purpose" aria-labelledby="purpose-title">
+      <h2 class="intro__tagline" id="purpose-title">Private does not mean suspicious. It means yours.</h2>
+      <p>Our phones hold the most personal parts of our lives, yet ordinary photo libraries and file browsers are designed to surface, suggest, synchronize, and share. Inner Vault is being designed for the material that deserves a boundary of its own.</p>
+      <p class="intro__trust">Capture it privately. Keep it encrypted. Reveal it only by choice.</p>
+    </section>
+
+    <section class="feature-flow" aria-label="Material Inner Vault is designed to protect">
+      <ul class="feature-flow__list">
+        <li style="--feature:#D9A86C"><span aria-hidden="true">✎</span><strong>Notes</strong></li>
+        <li style="--feature:#C98F78"><span aria-hidden="true">◉</span><strong>Photos</strong></li>
+        <li style="--feature:#9FA9BC"><span aria-hidden="true">〰</span><strong>Recordings</strong></li>
+        <li style="--feature:#A9A17C"><span aria-hidden="true">▤</span><strong>Documents</strong></li>
+        <li style="--feature:#C29666"><span aria-hidden="true">◇</span><strong>Personal secrets</strong></li>
+      </ul>
+    </section>
+
+    <section class="statement" aria-labelledby="private-capture-title">
+      <span class="eyebrow">A boundary from the first moment</span>
+      <h2 id="private-capture-title">Private capture—not a cleanup job afterward.</h2>
+      <p>Inner Vault is being designed with its own camera and recorders so new material can enter the vault without first being added to Photos. Imported files will be clearly identified as copies, because the original may still remain in Photos, Files, a message, or another app.</p>
+      <div class="capability-lines" role="list">
+        <div role="listitem"><strong>Capture</strong><span>Photographs, video, audio, and scans created inside the private boundary.</span></div>
+        <div role="listitem"><strong>Keep</strong><span>Notes, documents, filenames, previews, and sensitive metadata protected together.</span></div>
+        <div role="listitem"><strong>Reveal</strong><span>Controlled viewing designed to reduce accidental reproduction and disclosure.</span></div>
+        <div role="listitem"><strong>Recover</strong><span>An owner-held recovery path, tested before the app accepts real private material.</span></div>
+      </div>
+    </section>
+
+    <section class="statement statement--bordered" id="privacy" aria-labelledby="privacy-title">
+      <span class="statement__symbol" aria-hidden="true">◇</span>
+      <span class="eyebrow">Owned by the person using it</span>
+      <h2 id="privacy-title">Your data will always be yours—and nobody else&rsquo;s.</h2>
+      <p>Inner Vault is planned as a local-first app with no account, advertising, behavioural analytics, or third-party access to vault contents. Family Sharing will share only the App Store purchase—not anyone&rsquo;s vault, keys, recovery material, backups, or metadata.</p>
+      <ul class="truth-list">
+        <li>No subscription between you and your own material.</li>
+        <li>No developer-accessible content service.</li>
+        <li>No engagement machinery, feed, or attention economy.</li>
+        <li>Export, recovery, and deletion remain under owner control.</li>
+      </ul>
+      <p class="statement__note"><a href="privacy_policy.html">Read the pre-release privacy commitment</a></p>
+    </section>
+
+    <section class="craft-panel" aria-labelledby="craft-title">
+      <div class="craft-panel__inner">
+        <div class="craft-mark" aria-hidden="true"><span>⌾</span></div>
+        <div><span class="eyebrow">Technical craft</span><h2 id="craft-title">Evidence before confidence.</h2><p>Inner Vault is not being built by placing a lock screen over ordinary storage. Its architecture begins with independent item keys, a device-bound factor, an owner-held passphrase and recovery secret, encrypted metadata, fail-closed lifecycle rules, and physical-device testing. Strong claims must wait for demonstrated evidence and independent review.</p><a class="button button--outline" href="technical_craft.html">See how the work is being approached</a></div>
+      </div>
+    </section>
+
+    <section class="statement" aria-labelledby="viewing-title">
+      <span class="eyebrow">Protection continues after unlock</span>
+      <h2 id="viewing-title">Encryption at rest is only the beginning.</h2>
+      <p>Inner Vault is being designed as a controlled-viewing environment: sensitive pixels concealed during backgrounding, capture and external-display states treated as security events, and copying or sharing kept behind deliberate owner-authorized paths.</p>
+      <p class="statement__note">No app can stop another physical camera pointed at the screen, guarantee safety on a compromised operating system, or solve coercion. Inner Vault will say where its protection ends.</p>
+    </section>
+
+    <section class="statement statement--bordered" id="accessibility" aria-labelledby="accessibility-title">
+      <span class="statement__symbol" aria-hidden="true">◎</span>
+      <span class="eyebrow">Privacy must remain usable</span>
+      <h2 id="accessibility-title">A secure path must still be a path someone can finish.</h2>
+      <p>Accessibility is a release requirement from the foundation onward. Common tasks are being designed for VoiceOver, Voice Control, Switch Control, Larger Text, Reduce Motion, strong contrast, and alternatives to precise gestures, colour, sound, or motion.</p>
+      <p class="statement__note"><a href="accessibility.html">Read the accessibility commitment</a></p>
+    </section>
+
+    <section class="boundary" aria-labelledby="boundary-title"><div class="boundary__box"><h2 id="boundary-title">A truthful pre-release boundary</h2><p>Inner Vault currently has a native SwiftUI foundation and synthetic security feasibility work. It does not yet store real private material. Encryption, capture, recovery, and controlled-viewing claims on this page describe the approved product direction and release requirements—not completed protection.</p></div></section>
+
+    <section class="statement" id="resources" aria-labelledby="resources-title">
+      <span class="statement__symbol" aria-hidden="true">✦</span><h2 id="resources-title">Clarity belongs beside privacy.</h2><p>Read the architecture approach, the privacy commitment, accessibility intent, or contact Moving Truth directly.</p>
+      <div class="resource-list" role="list">
+        <a class="resource-link" href="technical_craft.html" role="listitem"><span class="resource-link__icon" aria-hidden="true">⌾</span><span class="resource-link__label">Technical Craft</span><span class="resource-link__arrow" aria-hidden="true">›</span></a>
+        <a class="resource-link" href="privacy_policy.html" role="listitem"><span class="resource-link__icon" aria-hidden="true">◇</span><span class="resource-link__label">Privacy commitment</span><span class="resource-link__arrow" aria-hidden="true">›</span></a>
+        <a class="resource-link" href="accessibility.html" role="listitem"><span class="resource-link__icon" aria-hidden="true">◎</span><span class="resource-link__label">Accessibility</span><span class="resource-link__arrow" aria-hidden="true">›</span></a>
+        <a class="resource-link" href="support.html" role="listitem"><span class="resource-link__icon" aria-hidden="true">◈</span><span class="resource-link__label">Support and contact</span><span class="resource-link__arrow" aria-hidden="true">›</span></a>
+      </div>
+    </section>
+
+    <section class="moving-truth" aria-label="About Moving Truth">
+      <a class="moving-truth__ring" href="https://movingtruth.com" aria-label="Moving Truth. Opens movingtruth.com"><img src="assets/moving-truth-logo.png" alt="Moving Truth logo"></a>
+      <strong>Inner Vault</strong><span>by Moving Truth</span><small>Made with care by Skylaur Roe</small><a href="https://apps.movingtruth.com">Explore all Moving Truth apps</a>
+    </section>
+
+    <section class="availability" id="availability" aria-labelledby="availability-title">
+      <span class="eyebrow">In development</span><h2 id="availability-title">One honest price. Yours for life.</h2><p>Inner Vault is planned for iPhone as one complete paid app. There will be no subscription dependency, advertising, or feature tier holding a person&rsquo;s private material hostage.</p><p class="price-line">CAD $15.99 once · Family Sharing included</p><a class="button button--outline" href="support.html">Follow the work</a>
+    </section>
+  </main>
+
+  <footer><div class="footer__brand"><img src="assets/icon.png" alt=""><strong>Inner Vault</strong></div><nav aria-label="Footer navigation"><ul><li><a href="#purpose">Purpose</a></li><li><a href="technical_craft.html">Technical Craft</a></li><li><a href="accessibility.html">Accessibility</a></li><li><a href="privacy_policy.html">Privacy</a></li><li><a href="support.html">Support</a></li><li><a href="https://apps.movingtruth.com">All apps</a></li></ul></nav><p>&copy; 2026 Inner Vault by Moving Truth. In development for iPhone.</p></footer>
+</body>
+</html>
